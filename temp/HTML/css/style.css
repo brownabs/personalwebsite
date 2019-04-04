@@ -137,7 +137,7 @@ button:focus {
 }
 
 .text-custom{
-    color: #e65f78 !important;
+    color: #800000 !important;
 }
 
 .h-100vh{
@@ -169,8 +169,8 @@ button:focus {
 }
 
 .btn-custom{
-    border:1px solid #e65f78;
-    background-color: #e65f78;
+    border:1px solid #800000;
+    background-color:#800000;
 }
 
 .btn-round {
@@ -187,8 +187,8 @@ button:focus {
 .btn-custom:hover,
 .open > .dropdown-toggle.btn-custom {
     color: #f3f3f3;
-    background-color: #d8576f;
-    border-color: #d8576f;
+    background-color: #800000;
+    border-color: #800000;
 }
 
 .btn-outline-custom {
@@ -373,7 +373,7 @@ button:focus {
     height: 2px;
     width: 40px;
     margin: 15px auto;
-    background: #e65f78;
+    background: #800000;
     transition: all 0.5s;
 }
 
@@ -434,7 +434,7 @@ button:focus {
     -moz-border-radius: 20px;
     border-radius: 20px;
     transition: all 0.5s;
-    background: #e65f78;
+    background: #800000;
 }
 
 .owl-theme .owl-controls .owl-page.active span {
@@ -459,7 +459,7 @@ button:focus {
 
 .work_menu a.active,
 .work_menu a:hover {
-    background-color: #e65f78;
+    background-color: #800000;
     color: #fff !important;
 }
 
@@ -541,7 +541,7 @@ button:focus {
 }
 
 .form-kerri .form-control:focus {
-    border-color: #e65f78;
+    border-color: #800000;
 }
 
 .form-kerri textarea.form-control {
