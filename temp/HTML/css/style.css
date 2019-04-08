@@ -1,33 +1,7 @@
-/*-----------------------------------------------------------
-* Template Name    : Kerri | Responsive Bootstrap 4 Personal Template
-* Author           : SRBThemes
-* Version          : 1.0.0
-* Created          : March 2018
-* File Description : Main css file of the template
-*------------------------------------------------------------
-*/
 
-
-/***********************
-    1.BASIC
-    2.HELPER
-    3.NAVBAR
-    4.HOME
-    5.ABOUT 
-    6.SERVICES
-    7.CLIENT
-    8.WORK
-    9.CONTACT
-    10.FOOTER
-    11.RESPONSIVE
-************************/
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600,700');
 
-
-/*======================
-        1.BASIC
-========================*/
 
 body {
     font-family: 'Nunito', sans-serif;
@@ -78,6 +52,20 @@ button:focus {
     left: 50%;
     top: 50%;
     margin: -20px 0 0 -20px;
+}
+
+.row {
+    justify-content: center !important;
+    flex-direction: row !important
+}
+
+.work_item {
+    position: relative !important;
+}
+
+.col-lg-4 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
 }
 
 .spinner {
@@ -463,6 +451,12 @@ button:focus {
     color: #fff !important;
 }
 
+.portfoliocontainer {
+    display: flex;
+    justify-content: center
+}
+
+
 .work_item {
     position: relative;
     padding: 15px;
@@ -472,6 +466,7 @@ button:focus {
     overflow: hidden;
     position: relative;
 }
+
 
 .work_box .work_img {
     position: relative;
@@ -618,3 +613,8 @@ button:focus {
         font-size:38px;
     }
 }
+
+.mb-2 {
+    font-size: 50px !important
+}
+
