@@ -1,19 +1,11 @@
-/*-----------------------------------------------------------
-* Template Name    : Kerri | Responsive Bootstrap 4 Personal Template
-* Author           : SRBThemes
-* Version          : 1.0.0
-* Created          : March 2018
-* File Description : Main Js file of the template
-*------------------------------------------------------------
-*/
 
 ! function($) {
     "use strict";
 
-    var KerriApp = function() {};
+    var AbbeyApp = function() {};
 
     //scroll
-    KerriApp.prototype.initStickyMenu = function() {
+    AbbeyApp.prototype.initStickyMenu = function() {
         $(window).on('scroll',function() {
             var scroll = $(window).scrollTop();
 
@@ -26,7 +18,7 @@
     },
 
     //Smooth
-    KerriApp.prototype.initSmoothLink = function() {
+    AbbeyApp.prototype.initSmoothLink = function() {
         $('.navbar-nav a').on('click', function(event) {
             var $anchor = $(this);
             $('html, body').stop().animate({
@@ -37,14 +29,14 @@
     },
 
     //Scrollspy
-    KerriApp.prototype.initScrollspy = function() {
+    AbbeyApp.prototype.initScrollspy = function() {
         $("#navbarCollapse").scrollspy({
             offset:20
         });
     },
 
     //Typed
-    KerriApp.prototype.initTextType = function() {
+    AbbeyApp.prototype.initTextType = function() {
         $(".element").each(function() {
             var $this = $(this);
             $this.typed({
@@ -56,7 +48,7 @@
     },
 
     //Work
-    KerriApp.prototype.initWork = function() {
+    AbbeyApp.prototype.initWork = function() {
         $(window).on('load', function () {
             var $container = $('.work-filter');
             var $filter = $('#menu-filter');
@@ -87,7 +79,7 @@
     },
 
     //Magnificpop
-    KerriApp.prototype.initMagnificPopup = function() {
+    AbbeyApp.prototype.initMagnificPopup = function() {
         $('.img-zoom').magnificPopup({
             type: 'image',
             closeOnContentClick: true,
@@ -101,7 +93,7 @@
     },
 
     //Client
-    KerriApp.prototype.initTestimonial = function() {
+    AbbeyApp.prototype.initTestimonial = function() {
         $("#owl-demo").owlCarousel({
             autoPlay: 7000,
             stopOnHover: true,
@@ -114,7 +106,7 @@
     },
 
     //PRELOADER
-    KerriApp.prototype.initPreloader = function() {
+    AbbeyApp.prototype.initPreloader = function() {
         $('#status').fadeOut();
         $('#preloader').delay(350).fadeOut('slow');
         $('body').delay(350).css({
@@ -122,7 +114,7 @@
         });
     },
 
-    KerriApp.prototype.init = function() {
+    AbbeyApp.prototype.init = function() {
         this.initStickyMenu();
         this.initSmoothLink();
         this.initScrollspy();
@@ -133,11 +125,11 @@
         this.initTestimonial();
     },
     //init
-    $.KerriApp = new KerriApp, $.KerriApp.Constructor = KerriApp
+    $.AbbeyApp = new AbbeyApp, $.AbbeyApp.Constructor = AbbeyApp
 }(window.jQuery),
 
 //initializing
 function($) {
     "use strict";
-    $.KerriApp.init();
+    $.AbbeyApp.init();
 }(window.jQuery);
