@@ -618,3 +618,28 @@ button:focus {
     font-size: 50px !important
 }
 
+.TechStack {
+    width: 100%;
+    max-width: 650px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.rows {
+    display: flex;
+    justify-content: center;
+    flex-direction: row
+}
+
+.contactFlex {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contactItemMargin {
+    width: 225px;
+    margin: 10px;
+}
