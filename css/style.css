@@ -623,6 +623,7 @@ button:focus {
     max-width: 650px;
     padding-bottom: 20px;
     margin: auto;
+    margin-top: 30px;
 }
 
 .rows {
@@ -643,3 +644,4 @@ button:focus {
     width: 225px;
     margin: 10px;
 }
+
