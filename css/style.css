@@ -118,8 +118,8 @@ button:focus {
 ============================*/
 
 .section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 10px;
     position: relative;
     background-color: #fff;
 }
@@ -432,6 +432,16 @@ button:focus {
 /*===========================
         8.WORK
 =============================*/
+
+#portfolio-title {
+    padding-top: 50px;
+    font-size: 4rem;
+    color: #800000 !important;
+}
+
+#portfolio-text {
+    font-size: 25px;
+}
 .work_menu li a {
     cursor: pointer;
     display: block;
@@ -644,4 +654,3 @@ button:focus {
     width: 225px;
     margin: 10px;
 }
-
